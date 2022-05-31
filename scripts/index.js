@@ -30,8 +30,6 @@
                 addCart(el);
             });
 
-            let id=el.id;
-            // funID(id);
             let div=document.createElement("div");
             div.append(img,color,price,btn);
             show.append(div);
@@ -51,12 +49,4 @@
         window.location.href="bucket.html"
     }
 
-//    async function funId(){
-//         const dataurl=`https://masai-mock-api.herokuapp.com/coffee1/menu`;
 
-//         let iddata=await fetch(dataurl);
-//         let sam= await iddata.json();
-//         console.log(sam)
-        
-//     }
-//     funId()

@@ -2,14 +2,14 @@
     
     
     
-    btn.addEventListener("click",fun);
+    confirm.addEventListener("click",fun);
 
     function fun(){
         event.preventDefault();
         let name=document.getElementById("name").value;
         let number=document.getElementById("number").value;
         let address=document.getElementById("address").value;
-        let btn=document.getElementById("btn");
+        let btn=document.getElementById("confirm");
         
         if(name==""||number==""||address==""){
             alert("Field All data maindotry")

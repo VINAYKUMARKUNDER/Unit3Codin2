@@ -29,7 +29,7 @@ function appendData(data){
         btn.innerText="remove"
         btn.style.cursor="pointer";
         btn.addEventListener("click",()=>{
-            addCart(el);
+            addCart();
         });
 
         let div=document.createElement("div");
@@ -38,7 +38,7 @@ function appendData(data){
     })
 };
 
-function addCart(el){
+function addCart(){
     event.target.parentNode.remove();
 }
 function checkout(){

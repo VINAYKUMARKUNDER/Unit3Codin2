@@ -1,6 +1,6 @@
     
     
-    
+        let confirm=document.getElementById("confirm");
     
     confirm.addEventListener("click",fun);
 
@@ -9,7 +9,7 @@
         let name=document.getElementById("name").value;
         let number=document.getElementById("number").value;
         let address=document.getElementById("address").value;
-        let btn=document.getElementById("confirm");
+    
         
         if(name==""||number==""||address==""){
             alert("Field All data maindotry")
